@@ -1,3 +1,5 @@
+---
+
 server:
     port: 8080
  
@@ -5,8 +7,8 @@ zuul:
     prefix: /api
     routes:
         users:
-            path: /users/**
-            serviceId: budget-manager-rest
+            path: /**
+            serviceId: budgetmanager-rest
             
 eureka:
   client:

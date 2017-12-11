@@ -8,8 +8,8 @@ import org.springframework.stereotype.Controller;
 
 @EnableZuulProxy
 @EnableDiscoveryClient
-@SpringBootApplication
 @Controller
+@SpringBootApplication
 public class BudgetManagerGateWayApplication {
 
 	public static void main(String[] args) {
